@@ -27,7 +27,7 @@ Esta API fornece endpoints e ferramentas HTTP para:
 
 ```curl
 curl -X 'POST' \
-  'http://npsapi.campelo.site:5000/mails' \
+  'http://localhost:5000/mails' \
   -H 'accept: */*' \
   -H 'emailFromAdress: exemplo@mail.com' \
   -H 'portNumber: 587' \
