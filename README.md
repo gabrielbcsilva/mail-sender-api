@@ -23,7 +23,26 @@ Esta API fornece endpoints e ferramentas HTTP para:
   "isHtml": true
 }
 ```
+**Curl:**
 
+```curl
+curl -X 'POST' \
+  'http://npsapi.campelo.site:5000/mails' \
+  -H 'accept: */*' \
+  -H 'emailFromAdress: exemplo@mail.com' \
+  -H 'portNumber: 587' \
+  -H 'smtpAdress: smtp.office365.com' \
+  -H 'password: password' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "emails": [
+    "string"
+  ],
+  "subject": "string",
+  "body": "string",
+  "isHtml": true
+}'
+```
 **Onde:**
 
 `emails` - É a lista de destinatário de um único email.
