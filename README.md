@@ -1,4 +1,4 @@
-# mailSender-api
+# mail-sender-api
 Api para serviço de email.
 
 ## Sobre
