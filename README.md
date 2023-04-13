@@ -35,7 +35,6 @@ Esta API fornece endpoints e ferramentas HTTP para:
 `isHtml` - True para indicar que o corpo está formatado em HTML, false para não.
 
 
-```
 
 Retornos possíveis:
 
